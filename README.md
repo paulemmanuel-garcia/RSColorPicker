@@ -1,8 +1,8 @@
 # RVSColorPicker
 
-[![Build Status](https://travis-ci.org/paulemmanuel-garcia/RSColorPicker.svg?branch=master)](https://travis-ci.org/paulemmanuel-garcia/RSColorPicker)
+[![Build Status](https://travis-ci.org/paulemmanuel-garcia/RSVColorPicker.svg?branch=master)](https://travis-ci.org/paulemmanuel-garcia/RSVColorPicker)
 
-RSColorPicker is a toolbox to generate and pick color easily with `Objective-c` or `Swift`.
+RVSColorPicker is a toolbox to generate and pick color easily with `Objective-c` or `Swift`.
 
 ## Installation
 
@@ -79,4 +79,4 @@ let generatedColor = ColorGenerator.colors(with: 15, excluded:excludedColors)
 
 ## License
 
-`RSColorPicker` is available under the MIT license. See the LICENSE file for more info.
+`RSVColorPicker` is available under the MIT license. See the LICENSE file for more info.
