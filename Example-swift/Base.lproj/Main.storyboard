@@ -1,14 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sur-fo-azx">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item 2-->
+        <scene sceneID="ET0-w3-HRV">
+            <objects>
+                <viewController id="YTL-Dq-tUm" customClass="GenerateOneColorViewController" customModule="Example_swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fDN-5R-nwD"/>
+                        <viewControllerLayoutGuide type="bottom" id="wGp-Nm-ea2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4bl-EO-WiN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcM-9N-kd2">
+                                <inset key="contentEdgeInsets" minX="10" minY="6" maxX="10" maxY="6"/>
+                                <state key="normal" title="Generate Color">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="generateButtonTouchUp:" destination="YTL-Dq-tUm" eventType="touchUpInside" id="rTU-Pm-6OA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xcM-9N-kd2" firstAttribute="centerX" secondItem="4bl-EO-WiN" secondAttribute="centerX" id="gN8-4o-itS"/>
+                            <constraint firstItem="xcM-9N-kd2" firstAttribute="centerY" secondItem="4bl-EO-WiN" secondAttribute="centerY" id="kSq-T1-5iS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="fss-BC-VcE"/>
+                    <connections>
+                        <outlet property="generateButton" destination="xcM-9N-kd2" id="mIN-Va-Acy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s0Q-sB-NMU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1052" y="331"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Tf3-QR-sol">
+            <objects>
+                <tabBarController id="sur-fo-azx" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Anp-nV-94I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="YTL-Dq-tUm" kind="relationship" relationship="viewControllers" id="php-hF-cxd"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="m2y-gM-Mdu"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vo5-uK-0IX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2004" y="4"/>
+        </scene>
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Example_swift" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +77,71 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NXC-jS-xpS">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAf-RU-o0w">
+                                        <state key="normal" title="Shuffle"/>
+                                        <connections>
+                                            <action selector="shuffleButtonTouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="acr-eq-cwL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aky-X6-bAD">
+                                        <state key="normal" title="Generate"/>
+                                        <connections>
+                                            <action selector="generateButtonTouchUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1K8-fC-FsB"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="EPz-Lo-e4W"/>
+                                    <constraint firstItem="Aky-X6-bAD" firstAttribute="centerY" secondItem="NXC-jS-xpS" secondAttribute="centerY" id="Nh5-iE-vi7"/>
+                                    <constraint firstItem="IAf-RU-o0w" firstAttribute="top" secondItem="NXC-jS-xpS" secondAttribute="top" id="O1V-kS-JpI"/>
+                                    <constraint firstItem="Aky-X6-bAD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IAf-RU-o0w" secondAttribute="trailing" constant="10" id="V78-Tu-9AM"/>
+                                    <constraint firstItem="Aky-X6-bAD" firstAttribute="centerX" secondItem="NXC-jS-xpS" secondAttribute="centerX" id="p1R-Yz-AeP"/>
+                                    <constraint firstItem="IAf-RU-o0w" firstAttribute="leading" secondItem="NXC-jS-xpS" secondAttribute="leading" id="pVH-Mx-HFn"/>
+                                    <constraint firstAttribute="bottom" secondItem="IAf-RU-o0w" secondAttribute="bottom" id="vEr-cy-lyp"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JKp-UJ-sC3">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="MNl-Tg-rpc">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MNl-Tg-rpc" id="nE0-ef-xQM">
+                                            <frame key="frameInset" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="mH3-Ah-Ilp"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="3A2-cx-KFR"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NXC-jS-xpS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="8fU-aH-HHr"/>
+                            <constraint firstItem="JKp-UJ-sC3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="C5z-Jm-PUc"/>
+                            <constraint firstItem="JKp-UJ-sC3" firstAttribute="top" secondItem="NXC-jS-xpS" secondAttribute="bottom" id="GBi-NB-DiN"/>
+                            <constraint firstAttribute="trailing" secondItem="JKp-UJ-sC3" secondAttribute="trailing" id="Hle-LM-8ri"/>
+                            <constraint firstAttribute="trailing" secondItem="NXC-jS-xpS" secondAttribute="trailing" id="M8q-i7-VlU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JKp-UJ-sC3" secondAttribute="bottom" id="fRN-KW-W0g"/>
+                            <constraint firstItem="NXC-jS-xpS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xrb-m5-3JC"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="X2E-eV-O4S"/>
+                    <connections>
+                        <outlet property="shuffleButton" destination="IAf-RU-o0w" id="J0T-nz-idD"/>
+                        <outlet property="tableView" destination="JKp-UJ-sC3" id="x0J-X4-UlF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1052" y="-382"/>
         </scene>
     </scenes>
 </document>

@@ -26,6 +26,7 @@
 		8150FCC41DB8D29A00270D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8150FCC31DB8D29A00270D60 /* Assets.xcassets */; };
 		8150FCC71DB8D29A00270D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150FCC51DB8D29A00270D60 /* LaunchScreen.storyboard */; };
 		8150FCCC1DB8D2A500270D60 /* RSColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8150FC831DB8AF5E00270D60 /* RSColorPicker.framework */; };
+		8150FCCE1DB90FA900270D60 /* GenerateOneColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150FCCD1DB90FA900270D60 /* GenerateOneColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		8150FCC31DB8D29A00270D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8150FCC61DB8D29A00270D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8150FCC81DB8D29A00270D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8150FCCD1DB90FA900270D60 /* GenerateOneColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateOneColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 				8150FCC31DB8D29A00270D60 /* Assets.xcassets */,
 				8150FCC51DB8D29A00270D60 /* LaunchScreen.storyboard */,
 				8150FCC81DB8D29A00270D60 /* Info.plist */,
+				8150FCCD1DB90FA900270D60 /* GenerateOneColorViewController.swift */,
 			);
 			path = "Example-swift";
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8150FCBF1DB8D29A00270D60 /* ViewController.swift in Sources */,
+				8150FCCE1DB90FA900270D60 /* GenerateOneColorViewController.swift in Sources */,
 				8150FCBD1DB8D29A00270D60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
