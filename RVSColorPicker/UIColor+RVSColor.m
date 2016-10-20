@@ -6,9 +6,9 @@
 //  Copyright © 2016 RStudio. All rights reserved.
 //
 
-#import "UIColor+RSColor.h"
+#import "UIColor+RVSColor.h"
 
-@implementation UIColor (RSColor)
+@implementation UIColor (RVSColor)
 
 - (CGFloat)hue {
     CGFloat hue;

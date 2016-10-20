@@ -39,7 +39,7 @@ typedef NS_ENUM(NSUInteger, HBBrightnessType) {
 /**
  Helpers properties and methods used by the HBColorPicker.
  */
-@interface UIColor (RSColor)
+@interface UIColor (RVSColor)
 
 /**
  Get the hue of the color.

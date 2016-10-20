@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8150FC821DB8AF5E00270D60"
-               BuildableName = "RSColorPicker.framework"
-               BlueprintName = "RSColorPicker"
-               ReferencedContainer = "container:RSColorPicker.xcodeproj">
+               BuildableName = "RVSColorPicker.framework"
+               BlueprintName = "RVSColorPicker"
+               ReferencedContainer = "container:RVSColorPicker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,9 +46,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8150FC821DB8AF5E00270D60"
-            BuildableName = "RSColorPicker.framework"
-            BlueprintName = "RSColorPicker"
-            ReferencedContainer = "container:RSColorPicker.xcodeproj">
+            BuildableName = "RVSColorPicker.framework"
+            BlueprintName = "RVSColorPicker"
+            ReferencedContainer = "container:RVSColorPicker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -64,9 +64,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8150FC821DB8AF5E00270D60"
-            BuildableName = "RSColorPicker.framework"
-            BlueprintName = "RSColorPicker"
-            ReferencedContainer = "container:RSColorPicker.xcodeproj">
+            BuildableName = "RVSColorPicker.framework"
+            BlueprintName = "RVSColorPicker"
+            ReferencedContainer = "container:RVSColorPicker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

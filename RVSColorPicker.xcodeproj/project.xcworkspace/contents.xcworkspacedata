@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:RSColorPicker.xcodeproj">
+      location = "self:/Users/paulemm/Projects/swift/RSColorPicker/RVSColorPicker.xcodeproj">
    </FileRef>
 </Workspace>

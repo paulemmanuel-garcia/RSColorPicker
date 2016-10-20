@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
  when a color has already been generated during a round of generation.
  */
 NS_SWIFT_NAME(ColorGenerator)
-@interface RSColorGenerator : NSObject
+@interface RVSColorGenerator : NSObject
 
 /**
  Generate one color.

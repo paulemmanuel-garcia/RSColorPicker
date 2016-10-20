@@ -8,7 +8,7 @@
 
 import UIKit
 
-import RSColorPicker
+import RVSColorPicker
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 

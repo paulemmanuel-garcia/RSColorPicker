@@ -1,4 +1,4 @@
-# RSColorPicker
+# RVSColorPicker
 
 [![Build Status](https://travis-ci.org/paulemmanuel-garcia/RSColorPicker.svg?branch=master)](https://travis-ci.org/paulemmanuel-garcia/RSColorPicker)
 
@@ -14,22 +14,22 @@ To use it on your project you need to import the framework.
 
 ```objective-c
 // Objective-c
-#import "RSColorPicker.h";
+#import "RVSColorPicker.h";
 ```
 ```swift
 // Swift
-import RSColorPicker
+import RVSColorPicker
 ```
 
 ### Use Generated Colors
 
-You can use it to generate one random color or a palette of random colors. Furthermore, `RSColorPicker` can generate specific color for white text written on it. You can exclude colors to avoid them during color generation.
+You can use it to generate one random color or a palette of random colors. Furthermore, `RVSColorPicker` can generate specific color for white text written on it. You can exclude colors to avoid them during color generation.
 
 ##### Use a random color.
 
 ```objective-c
 // Objective-c
-UIColor *generatedColor = [RSColorGenerator color];
+UIColor *generatedColor = [RVSColorGenerator color];
 ```
 ```swift
 // Swift
@@ -40,7 +40,7 @@ let generatedColor = ColorGenerator.color()
 
 ```objective-c
 // Objective-c
-UIColor *generatedColor = [RSColorGenerator colorForWhiteText];
+UIColor *generatedColor = [RVSColorGenerator colorForWhiteText];
 ```
 ```swift
 // Swift
@@ -50,7 +50,7 @@ let generatedColor = ColorGenerator.colorForWhiteText()
 ##### Use a random colors palette
 ```objective-c
 // Objective-c
-NSArray<UIColor *> *generatedColor = [RSColorGenerator colorsWithCount:15];
+NSArray<UIColor *> *generatedColor = [RVSColorGenerator colorsWithCount:15];
 ```
 ```swift
 // Swift
@@ -61,7 +61,7 @@ let generatedColor = ColorGenerator.colors(with: 5)
 ```objective-c
 // Objective-c
 NSArray<UIColor *> *excludedColors = @[[UIColor colorWithHue:0.9], [UIColor colorWithHue:0.91], /* ... */[UIColor colorWithHue:1]];
-NSArray<UIColor *> *generatedColor = [RSColorGenerator colorsWithCount:15 withExcludedColors:excludedColors];
+NSArray<UIColor *> *generatedColor = [RVSColorGenerator colorsWithCount:15 withExcludedColors:excludedColors];
 ```
 ```swift
 // Swift

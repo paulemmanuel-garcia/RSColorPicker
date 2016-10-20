@@ -6,16 +6,16 @@
 //  Copyright © 2016 RStudio. All rights reserved.
 //
 
-#import "RSColorGenerator.h"
+#import "RVSColorGenerator.h"
 
 
-#import "UIColor+RSColor.h"
+#import "UIColor+RVSColor.h"
 
 const CGFloat hueMax = 360.0;
 
 typedef BOOL (^HueCreationConditionBlock)(UIColor *color);
 
-@implementation RSColorGenerator
+@implementation RVSColorGenerator
 
 + (UIColor *)color {
     float hue = arc4random_uniform(hueMax);

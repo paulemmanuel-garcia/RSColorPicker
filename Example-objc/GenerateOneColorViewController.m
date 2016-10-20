@@ -8,7 +8,7 @@
 
 #import "GenerateOneColorViewController.h"
 
-#import "RSColorPicker.h"
+#import "RVSColorPicker.h"
 
 @interface GenerateOneColorViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *generateColorButton;
@@ -20,7 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.generateColorButton.backgroundColor = [RSColorGenerator color];
+    self.generateColorButton.backgroundColor = [RVSColorGenerator color];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,7 +38,7 @@
 }
 */
 - (IBAction)generateColorButtonTouchUp:(id)sender {
-    self.generateColorButton.backgroundColor = [RSColorGenerator color];
+    self.generateColorButton.backgroundColor = [RVSColorGenerator color];
 }
 
 @end

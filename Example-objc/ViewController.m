@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import "RSColorPicker.h"
+#import "RVSColorPicker.h"
 
 @interface ViewController () <UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, weak) IBOutlet UIButton *sortButton;
@@ -25,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.colors = [RSColorGenerator colorsWithCount:50];
+    self.colors = [RVSColorGenerator colorsWithCount:50];
     self.filteredColors = [self.colors sortedArrayUsingDescriptors:@[[[NSSortDescriptor alloc] initWithKey:@"hue" ascending:NO]]];
     self.isSorted = YES;
 }

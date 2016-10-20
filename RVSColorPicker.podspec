@@ -1,6 +1,6 @@
 
 #
-# Be sure to run `pod lib lint RSColorPicker.podspec' to ensure this is a
+# Be sure to run `pod lib lint RVSColorPicker.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,11 +8,11 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "RSColorPicker"
+  s.name             = "RVSColorPicker"
   s.version          = "0.1.0"
   s.summary          = "Generate color easily."
   s.description      = <<-DESC
-                            RSColorPicker lets you generate one color or a palette of colors.
+                            RVSColorPicker lets you generate one color or a palette of colors.
                             Furthermore, you could exclude some colors from the generation.
                             It is also possible to generate colors for white text.
                        DESC

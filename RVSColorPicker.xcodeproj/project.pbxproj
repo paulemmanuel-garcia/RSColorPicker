@@ -7,36 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8150FC881DB8AF5E00270D60 /* RSColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8150FC861DB8AF5E00270D60 /* RSColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8150FC911DB8B02700270D60 /* UIColor+RSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8150FC8F1DB8B02700270D60 /* UIColor+RSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8150FC921DB8B02700270D60 /* UIColor+RSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8150FC901DB8B02700270D60 /* UIColor+RSColor.m */; };
-		8150FC951DB8B06C00270D60 /* RSColorGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8150FC931DB8B06C00270D60 /* RSColorGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8150FC961DB8B06C00270D60 /* RSColorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8150FC941DB8B06C00270D60 /* RSColorGenerator.m */; };
+		8133209B1DB95E90009CA197 /* UIColor+RVSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 813320971DB95E90009CA197 /* UIColor+RVSColor.m */; };
+		8133209C1DB95E90009CA197 /* RVSColorGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 813320981DB95E90009CA197 /* RVSColorGenerator.m */; };
+		8133209D1DB95E90009CA197 /* RVSColorGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 813320991DB95E90009CA197 /* RVSColorGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8133209E1DB95E90009CA197 /* UIColor+RVSColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8133209A1DB95E90009CA197 /* UIColor+RVSColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8133209F1DB95E97009CA197 /* RVSColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 8150FC861DB8AF5E00270D60 /* RVSColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8150FC9F1DB8B10700270D60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8150FC9E1DB8B10700270D60 /* main.m */; };
 		8150FCA21DB8B10700270D60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8150FCA11DB8B10700270D60 /* AppDelegate.m */; };
 		8150FCA51DB8B10700270D60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8150FCA41DB8B10700270D60 /* ViewController.m */; };
 		8150FCA81DB8B10700270D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150FCA61DB8B10700270D60 /* Main.storyboard */; };
 		8150FCAA1DB8B10700270D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8150FCA91DB8B10700270D60 /* Assets.xcassets */; };
 		8150FCAD1DB8B10700270D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150FCAB1DB8B10700270D60 /* LaunchScreen.storyboard */; };
-		8150FCB21DB8D12D00270D60 /* RSColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8150FC831DB8AF5E00270D60 /* RSColorPicker.framework */; };
+		8150FCB21DB8D12D00270D60 /* RVSColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8150FC831DB8AF5E00270D60 /* RVSColorPicker.framework */; };
 		8150FCB51DB8D1D500270D60 /* GenerateOneColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8150FCB41DB8D1D500270D60 /* GenerateOneColorViewController.m */; };
 		8150FCBD1DB8D29A00270D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150FCBC1DB8D29A00270D60 /* AppDelegate.swift */; };
 		8150FCBF1DB8D29A00270D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150FCBE1DB8D29A00270D60 /* ViewController.swift */; };
 		8150FCC21DB8D29A00270D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150FCC01DB8D29A00270D60 /* Main.storyboard */; };
 		8150FCC41DB8D29A00270D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8150FCC31DB8D29A00270D60 /* Assets.xcassets */; };
 		8150FCC71DB8D29A00270D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8150FCC51DB8D29A00270D60 /* LaunchScreen.storyboard */; };
-		8150FCCC1DB8D2A500270D60 /* RSColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8150FC831DB8AF5E00270D60 /* RSColorPicker.framework */; };
+		8150FCCC1DB8D2A500270D60 /* RVSColorPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8150FC831DB8AF5E00270D60 /* RVSColorPicker.framework */; };
 		8150FCCE1DB90FA900270D60 /* GenerateOneColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8150FCCD1DB90FA900270D60 /* GenerateOneColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8150FC831DB8AF5E00270D60 /* RSColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8150FC861DB8AF5E00270D60 /* RSColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RSColorPicker.h; path = Framework/RSColorPicker.h; sourceTree = "<group>"; };
+		813320971DB95E90009CA197 /* UIColor+RVSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+RVSColor.m"; path = "RVSColorPicker/UIColor+RVSColor.m"; sourceTree = SOURCE_ROOT; };
+		813320981DB95E90009CA197 /* RVSColorGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RVSColorGenerator.m; path = RVSColorPicker/RVSColorGenerator.m; sourceTree = SOURCE_ROOT; };
+		813320991DB95E90009CA197 /* RVSColorGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RVSColorGenerator.h; path = RVSColorPicker/RVSColorGenerator.h; sourceTree = SOURCE_ROOT; };
+		8133209A1DB95E90009CA197 /* UIColor+RVSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+RVSColor.h"; path = "RVSColorPicker/UIColor+RVSColor.h"; sourceTree = SOURCE_ROOT; };
+		8150FC831DB8AF5E00270D60 /* RVSColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RVSColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8150FC861DB8AF5E00270D60 /* RVSColorPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RVSColorPicker.h; path = Framework/RVSColorPicker.h; sourceTree = "<group>"; };
 		8150FC871DB8AF5E00270D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Framework/Info.plist; sourceTree = "<group>"; };
-		8150FC8F1DB8B02700270D60 /* UIColor+RSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RSColor.h"; sourceTree = "<group>"; };
-		8150FC901DB8B02700270D60 /* UIColor+RSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RSColor.m"; sourceTree = "<group>"; };
-		8150FC931DB8B06C00270D60 /* RSColorGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSColorGenerator.h; sourceTree = "<group>"; };
-		8150FC941DB8B06C00270D60 /* RSColorGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSColorGenerator.m; sourceTree = "<group>"; };
 		8150FC9B1DB8B10700270D60 /* Example-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8150FC9E1DB8B10700270D60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8150FCA01DB8B10700270D60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8150FCB21DB8D12D00270D60 /* RSColorPicker.framework in Frameworks */,
+				8150FCB21DB8D12D00270D60 /* RVSColorPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8150FCCC1DB8D2A500270D60 /* RSColorPicker.framework in Frameworks */,
+				8150FCCC1DB8D2A500270D60 /* RVSColorPicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				8150FC8E1DB8AFE900270D60 /* Framework */,
-				8150FC851DB8AF5E00270D60 /* RSColorPicker */,
+				8150FC851DB8AF5E00270D60 /* RVSColorPicker */,
 				8150FC9C1DB8B10700270D60 /* Example-objc */,
 				8150FCBB1DB8D29A00270D60 /* Example-swift */,
 				8150FC841DB8AF5E00270D60 /* Products */,
@@ -100,28 +100,29 @@
 		8150FC841DB8AF5E00270D60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8150FC831DB8AF5E00270D60 /* RSColorPicker.framework */,
+				8150FC831DB8AF5E00270D60 /* RVSColorPicker.framework */,
 				8150FC9B1DB8B10700270D60 /* Example-objc.app */,
 				8150FCBA1DB8D29A00270D60 /* Example-swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8150FC851DB8AF5E00270D60 /* RSColorPicker */ = {
+		8150FC851DB8AF5E00270D60 /* RVSColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				8150FC8F1DB8B02700270D60 /* UIColor+RSColor.h */,
-				8150FC901DB8B02700270D60 /* UIColor+RSColor.m */,
-				8150FC931DB8B06C00270D60 /* RSColorGenerator.h */,
-				8150FC941DB8B06C00270D60 /* RSColorGenerator.m */,
+				813320971DB95E90009CA197 /* UIColor+RVSColor.m */,
+				813320981DB95E90009CA197 /* RVSColorGenerator.m */,
+				813320991DB95E90009CA197 /* RVSColorGenerator.h */,
+				8133209A1DB95E90009CA197 /* UIColor+RVSColor.h */,
 			);
+			name = RVSColorPicker;
 			path = RSColorPicker;
 			sourceTree = "<group>";
 		};
 		8150FC8E1DB8AFE900270D60 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				8150FC861DB8AF5E00270D60 /* RSColorPicker.h */,
+				8150FC861DB8AF5E00270D60 /* RVSColorPicker.h */,
 				8150FC871DB8AF5E00270D60 /* Info.plist */,
 			);
 			name = Framework;
@@ -174,18 +175,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8150FC881DB8AF5E00270D60 /* RSColorPicker.h in Headers */,
-				8150FC911DB8B02700270D60 /* UIColor+RSColor.h in Headers */,
-				8150FC951DB8B06C00270D60 /* RSColorGenerator.h in Headers */,
+				8133209F1DB95E97009CA197 /* RVSColorPicker.h in Headers */,
+				8133209E1DB95E90009CA197 /* UIColor+RVSColor.h in Headers */,
+				8133209D1DB95E90009CA197 /* RVSColorGenerator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8150FC821DB8AF5E00270D60 /* RSColorPicker */ = {
+		8150FC821DB8AF5E00270D60 /* RVSColorPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8150FC8B1DB8AF5E00270D60 /* Build configuration list for PBXNativeTarget "RSColorPicker" */;
+			buildConfigurationList = 8150FC8B1DB8AF5E00270D60 /* Build configuration list for PBXNativeTarget "RVSColorPicker" */;
 			buildPhases = (
 				8150FC7E1DB8AF5E00270D60 /* Sources */,
 				8150FC7F1DB8AF5E00270D60 /* Frameworks */,
@@ -196,9 +197,9 @@
 			);
 			dependencies = (
 			);
-			name = RSColorPicker;
+			name = RVSColorPicker;
 			productName = RSColorPicker;
-			productReference = 8150FC831DB8AF5E00270D60 /* RSColorPicker.framework */;
+			productReference = 8150FC831DB8AF5E00270D60 /* RVSColorPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8150FC9A1DB8B10700270D60 /* Example-objc */ = {
@@ -262,7 +263,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8150FC7D1DB8AF5E00270D60 /* Build configuration list for PBXProject "RSColorPicker" */;
+			buildConfigurationList = 8150FC7D1DB8AF5E00270D60 /* Build configuration list for PBXProject "RVSColorPicker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -275,7 +276,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8150FC821DB8AF5E00270D60 /* RSColorPicker */,
+				8150FC821DB8AF5E00270D60 /* RVSColorPicker */,
 				8150FC9A1DB8B10700270D60 /* Example-objc */,
 				8150FCB91DB8D29A00270D60 /* Example-swift */,
 			);
@@ -317,8 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8150FC961DB8B06C00270D60 /* RSColorGenerator.m in Sources */,
-				8150FC921DB8B02700270D60 /* UIColor+RSColor.m in Sources */,
+				8133209B1DB95E90009CA197 /* UIColor+RVSColor.m in Sources */,
+				8133209C1DB95E90009CA197 /* RVSColorGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,7 +490,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rstudio.RSColorPicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rstudio.RVSColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -507,7 +508,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Framework/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rstudio.RSColorPicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rstudio.RVSColorPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -569,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8150FC7D1DB8AF5E00270D60 /* Build configuration list for PBXProject "RSColorPicker" */ = {
+		8150FC7D1DB8AF5E00270D60 /* Build configuration list for PBXProject "RVSColorPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8150FC891DB8AF5E00270D60 /* Debug */,
@@ -578,13 +579,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8150FC8B1DB8AF5E00270D60 /* Build configuration list for PBXNativeTarget "RSColorPicker" */ = {
+		8150FC8B1DB8AF5E00270D60 /* Build configuration list for PBXNativeTarget "RVSColorPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8150FC8C1DB8AF5E00270D60 /* Debug */,
 				8150FC8D1DB8AF5E00270D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8150FCAF1DB8B10700270D60 /* Build configuration list for PBXNativeTarget "Example-objc" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +595,7 @@
 				8150FCB11DB8B10700270D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8150FCC91DB8D29A00270D60 /* Build configuration list for PBXNativeTarget "Example-swift" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +604,7 @@
 				8150FCCB1DB8D29A00270D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
