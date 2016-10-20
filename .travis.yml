@@ -2,7 +2,7 @@ language: objective-c
 osx_image: xcode8
 env:
   global:
-  - FRAMEWORK_NAME=RSColorPicker
+  - FRAMEWORK_NAME=RVSColorPicker
 before_install:
 - brew update
 - brew outdated carthage || brew upgrade carthage
@@ -10,7 +10,7 @@ install:
 - gem install cocoapods
 - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
-- set -o pipefail && xcodebuild -project RSColorPicker.xcodeproj -scheme $FRAMEWORK_NAME -sdk iphonesimulator10.0 -configuration Release | xcpretty -c
+- set -o pipefail && xcodebuild -project RVSColorPicker.xcodeproj -scheme $FRAMEWORK_NAME -sdk iphonesimulator10.0 -configuration Release | xcpretty -c
 before_deploy:
 - carthage build --no-skip-current
 - carthage archive $FRAMEWORK_NAME
@@ -21,5 +21,5 @@ deploy:
   file: $FRAMEWORK_NAME.framework.zip
   skip_cleanup: true
   on:
-    repo: paulemmanuel-garcia/RSColorPicker
+    repo: paulemmanuel-garcia/RVSColorPicker
     tags: true
