@@ -1,11 +1,18 @@
 # RVSColorPicker
 
 [![Build Status](https://travis-ci.org/paulemmanuel-garcia/RVSColorPicker.svg?branch=master)](https://travis-ci.org/paulemmanuel-garcia/RVSColorPicker)
+[![CocoaPods](https://img.shields.io/cocoapods/v/RVSColorPicker.svg)](https://cocoapods.org/pods/RVSColorPicker)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods](https://img.shields.io/cocoapods/l/RVSColorPicker.svg)](https://github.com/paulemmanuel-garcia/RVSColorPicker)
+[![CocoaPods](https://img.shields.io/cocoapods/p/RVSColorPicker.svg)](https://github.com/paulemmanuel-garcia/RVSColorPicker)
 
 RVSColorPicker is a toolbox to generate and pick color easily with `Objective-c` or `Swift`.
 
 ## Installation
 
+`RVSColorPicker` can be installed with [CocoaPods](cocoapods.org). To install it, add ```pod "RVSColorPicker"``` to your `Podfile`.
+
+`RVSColorPicker` is also [Carthage](https://github.com/Carthage/Carthage) compatible. You just need to add ```github "paulemmanuel-garcia/RVSColorPicker"``` to your `Cartfile`.
 
 ## Usage
 
@@ -73,7 +80,7 @@ let generatedColor = ColorGenerator.colors(with: 15, excluded:excludedColors)
 
 - More choice for color generation (saturation, brightness)
 - Color association
-- A real Color Picker
+- A real (UI) Color Picker
 
 ## Documentation
 

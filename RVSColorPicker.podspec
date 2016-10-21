@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "RVSColorPicker"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Generate color easily."
   s.description      = <<-DESC
                             RVSColorPicker lets you generate one color or a palette of colors.

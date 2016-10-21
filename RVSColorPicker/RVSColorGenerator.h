@@ -22,26 +22,26 @@ NS_SWIFT_NAME(ColorGenerator)
 
 /**
  Generate one color.
- 
+
  @return UIColor the newly generated color.
  */
 + (UIColor *)color;
 
 /**
  Generate a palettes of colors.
- 
+
  @param count NSUInteger, number of colors to generate.
- 
+
  @return NSArray<UIColor *> * The newly generated colors.
  */
 + (NSArray<UIColor *> *)colorsWithCount:(NSUInteger)count NS_SWIFT_NAME(colors(with:));
 
 /**
  Generate a palette of colors where colors are not in the excluded colors.
- 
+
  @param count        NSUInteger, number of colors to generate.
  @param excludedColors NSArray<UIColor *> * new colors shouldn't be among the excluded colors.
- 
+
  @return NSArray<UIColor *> * The newly generated colors.
  */
 + (NSArray<UIColor *> *)colorsWithCount:(NSUInteger)count withExcludedColors:(NSArray<UIColor *> * _Nullable)excludedColors NS_SWIFT_NAME(colors(with:excluded:));
@@ -49,16 +49,16 @@ NS_SWIFT_NAME(ColorGenerator)
 
 /**
  Generate a color where a white text will be readable.
- 
+
  @return UIColor the newly generated color.
  */
 + (UIColor *)colorForWhiteText;
 
 /**
  Generate a palette of colors where a white text will be readable.
- 
+
  @param count NSUInteger, number of colors to generate.
- 
+
  @return NSArray<UIColor *> * The newly generated colors.
  */
 + (NSArray<UIColor *> *)colorsForWhiteTextWithCount:(NSUInteger)count NS_SWIFT_NAME(colorsForWhiteText(whith:));
@@ -66,4 +66,3 @@ NS_SWIFT_NAME(ColorGenerator)
 @end
 
 NS_ASSUME_NONNULL_END
-
